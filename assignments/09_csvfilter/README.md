@@ -6,7 +6,7 @@ The program should take the following parameters:
 
 * `-f`|`--file`: A *required* argument that is a readable file
 * `-v`|`--val`: A *required* "value" to match against each record
-* `-c`|`--col`: An optional "column" to search for the given value
+* `-c`|`--col`: An optional "column name" to search for the given value
 * `-o`|`--outfile`: An optional output file name (default `'out.csv'`)
 * `-d`|`--delimiter`: An optional delimiter to use to parse the file (default `','`)
 
@@ -22,7 +22,7 @@ optional arguments:
   -h, --help            show this help message and exit
   -f FILE, --file FILE  Input file (default: None)
   -v val, --val val     Value for filter (default: None)
-  -c col, --col col     Column for filter (default: )
+  -c col, --col col     Column name for filter (default: )
   -o OUTFILE, --outfile OUTFILE
                         Output filename (default: out.csv)
   -d delim, --delimiter delim
